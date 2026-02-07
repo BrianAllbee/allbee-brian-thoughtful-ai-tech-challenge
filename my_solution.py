@@ -90,7 +90,7 @@ def main(source_file: Path | str):
     source_file : Path | str
         The source file whose data will be used.
     """
-    longest = (None, 0)
+    longest = (GraphID(None, None), 0)
     last_hops = {}
     for line in stream_data_from_file(source_file):
         graph_id, source, destination = get_hop_data(line)
