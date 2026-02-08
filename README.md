@@ -12,17 +12,13 @@ This is the solution by Brian Allbee for the [dec-8-challenge tech screen](https
 usage: my_solution.py [-h] source_file
 
 Finds the longest routing cycle (sequence of hops) out of a data-set of
-claim-ID/status-ID elements retrieved from the provided URL
+claim-ID/status-ID elements retrieved from the provided file.
 
 positional arguments:
   source_file  The file to retrieve data from for processing
 
 options:
   -h, --help   show this help message and exit
-
-The Routing Cycle Detector challenge for thoughtful.ai, implemented by
-Brian Allbee (brian.allbee@gmail.com) Instructions at
-https://gist.github.com/jose-at-thoughtful/343502a17586b2a0a3ce96f440609fa2
 ```
 
 ## Overview
