@@ -1,0 +1,10 @@
+# Project-level things to ignore
+
+# Create one if needed; at present the only thing that'll have an effect is LOG_LEVEL=DEBUG|INFO|WARNING|ERROR|CRITICAL
+.env
+
+# Don't need to keep this, it's just Markdown editing stuff for Obsidian
+.obsidian/
+
+# Rebuild, if needed, with pipenv lock
+Pipfile.lock
