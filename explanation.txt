@@ -1,0 +1,5 @@
+This solution streams the input once, builds per-(claim_id, status_code) graphs incrementally, and detects cycles using a bounded, non-recursive, pruning DFS.
+It avoids storing full paths and enforces simple cycles only.
+It processed ~11M lines in ~6 minutes.
+Future work includes parallelizing per-graph processing and pruning graphs below the global longest cycle.
+See README.md for more detail.
