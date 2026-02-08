@@ -20,7 +20,7 @@ from pathlib import Path
 parser = argparse.ArgumentParser(
     description='Finds the longest routing cycle (sequence of hops) '
     'out of a data-set of claim-ID/status-ID elements retrieved from '
-    'the provided URL',
+    'the provided file.',
     epilog=__doc__
 )
 parser.add_argument(
